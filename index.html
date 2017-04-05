@@ -5,8 +5,11 @@
  	<meta lang="en" charset="utf-8">
 
  	<title>LOBNEX_WEB</title>
- 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+ 	<!-- Remove browser css -->
+ 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+ 	<link rel="stylesheet" type="text/css" href="fonts/fonts.css">
  	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+ 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
  </head>	
 
  <body>
@@ -20,7 +23,7 @@
  			</center>
  
  			<div class="nav">
-               	<ul>
+               	<ul class="clear-fix text-center">
 		            <li><a href="#home">Home</a></li>
 		            <li><a href="#Who We Are">Who We Are</a></li>
 		            <li><a href="#Our Philosophy">Our Philosophy</a></li>
@@ -28,88 +31,81 @@
 		            <li><a href="#Our Team">Our Team</a></li>
 		            <li><a href="#Client">Clients</a></li>
 		            <li><a href="#Contact">Contact</a></li>
-		        </ul>			           
- 			</div><!-- end of navigation -->
- 			<div class="clear-fix"></div>
-
- 		
+		        </ul>		           
+ 			</div><!-- end of navigation -->	
  		</div><!-- end of container -->
 
  	</header>
 
  	<!-- HERO SECTION -->
  	<section id="hero">	
- 		<img src="images/hero.jpg" alt="hero image">
+ 		<!-- <img src="images/hero.jpg" alt="hero image"> -->
  	</section>
 
 	<!-- WHO WE ARE-->
-	<div class="container">
-		<section id="about">
-		  		<div class="heading">
-		  			<h3>ABOUT US</h3>
-		  		</div><!-- end of heading -->
+	<section id="about" class="clear-fix">
+		<div class="container">
+	  		<div class="heading">
+	  			<h3>ABOUT US</h3>
+	  		</div><!-- end of heading -->
 
-		  		<div id="about_img">
-		  			<img src="images/about.jpg" alt="about us">
-		  		</div><!-- end of about_img -->
+	  		<div id="about_img">
+	  			<img src="images/about.jpg" alt="about us">
+	  		</div><!-- end of about_img -->
 
-		  		<div id="about_text">
-		  			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulum </p>
+	  		<div id="about_text">
+	  			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulum </p>
 
-		  			<br>
+	  			<br>
 
-		  			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulum</p>
+	  			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulum</p>
 
-		  			<br>
+	  			<br>
 
-		  			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulum a.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulum</p>
+	  			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulum a.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulum</p>
 
-		  			<br>
+	  			<br>
 
-		  			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulum</p>
+	  			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulum</p>
 
-		  		</div><!--end of about_text-->
-		  		<div class="clear-fix"></div>
-		</section>	  
-	</div><!-- end of container -->
-
-	  		
+	  		</div><!--end of about_text-->
+	  	</div><!-- end of container -->	
+	</section>	  
 
 
 
-	  	<!-- OUR PHILOSOPHY-->
-	<div class="container">
-		<section id="philo">
-		  		<div class="heading">
-		  			<h3>OUR PHILOSOPHY</h3>
-		  		</div><!--end of heading-->
+	<!-- OUR PHILOSOPHY-->
+	<section id="philo" class="clear-fix">
+	  	<div class="container">
+	  		<div class="heading">
+	  			<h3>OUR PHILOSOPHY</h3>
+	  		</div><!--end of heading-->
 
-		  		<div id="philo_text">
+	  		<div id="philo_text">
 
-		  			<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulumorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulum orem ipsum dolor sit amet</p>
-		  			<br>
+	  			<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulumorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulum orem ipsum dolor sit amet</p>
+	  			<br>
 
-		  			<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulum</p>
-		  			<br>
+	  			<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulum</p>
+	  			<br>
 
-		  			<p><span>orem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulumorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulumorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulum.     </span></p>
-		  			<br>
+	  			<p><span>orem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulumorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulumorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulum.     </span></p>
+	  			<br>
 
-		  			<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulum.orem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulum.orem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulum</p>
-		  			<br>
+	  			<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulum.orem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulum.orem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulum</p>
+	  			<br>
 
-		  			<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulumorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulumorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	  			<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulumorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus cursus purus, in fringilla odio vestibulumorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-		  		</div><!--end of philo_text-->
+	  		</div><!--end of philo_text-->
 
-		  		<div id="philo_img">
-		  			<img src="images/philo.jpg" alt="Our Philosophy">
-		  		</div><!--end of philo_img-->
-		</section>
-	</div><!-- end of container -->
+	  		<div id="philo_img">
+	  			<img src="images/philo.jpg" alt="Our Philosophy">
+	  		</div><!--end of philo_img-->
+	  	</div><!-- end of container -->	
+	</section>
 
 	<!-- OUR SERVICES-->
-	
 	<section id="services">
 		<div class="container">
 	  		<div class="heading">
@@ -287,42 +283,42 @@
 
    	<!-- CONTACT-->
   	<section id="contact">
+  		<div class="container" class="clear-fix">
+	  		<div class="contact_column">
+	  				<h4>CONTACT US</h4>
+					<div class="address">
+						<h5>Lobnek Health Management</h5>
+						<p>11,lorem epsum</p>
+						<p>11432,epsum</p>
+						<p>epsumla</p>
+					</div><!-- end of address-->
 
-  		<div class="contact_column">
-  				<h4>CONTACT US</h4>
-				<div class="address">
-					<h5>Lobnek Health Management</h5>
-					<p>11,lorem epsum</p>
-					<p>11432,epsum</p>
-					<p>epsumla</p>
-				</div><!-- end of address-->
+					<div class="number">
+						<p>Tel: +8979536977549</p>
+						<p>Tel: +8979536977549</p>
+						<p>EMAIL: <a href="thechinmayidash@gmail.com">thechinmayidash@gmail.com</a></p>
 
-				<div class="number">
-					<p>Tel: +8979536977549</p>
-					<p>Tel: +8979536977549</p>
-					<p>EMAIL: <a href="thechinmayidash@gmail.com">thechinmayidash@gmail.com</a></p>
+					</div><!-- end of number-->
 
-				</div><!-- end of number-->
+			</div><!--end of contact_column -->
 
-		</div><!--end of contact_column -->
+			<div class="contact_column">
 
-		<div class="contact_column">
+				<form action=" " method="post/get">
+					<p>Your Name Here(Required)</p>
+					<input type="text" name="lastname" value=" " size="30" maxlength="50">
+					<br>
+					E-mail:<br>
+					<input type="text" name="mail"><br>
+					<p>Subject</p>
+					<textarea name="comment" rows="6" cols="20">
+					</textarea><br>
 
-			<form action=" " method="post/get">
-				<p>Your Name Here(Required)</p>
-				<input type="text" name="lastname" value=" " size="30" maxlength="50">
-				<br>
-				E-mail:<br>
-				<input type="text" name="mail"><br>
-				<p>Subject</p>
-				<textarea name="comment" rows="6" cols="20">
-				</textarea><br>
+					<button>Send Message</button>
+				</form><!--end of form -->
 
-				<button>Send Message</button>
-			</form><!--end of form -->
-
-		</div><!--end of contact_column -->
-
+			</div><!--end of contact_column -->
+		</div>
  	</section>
 
  </body>
