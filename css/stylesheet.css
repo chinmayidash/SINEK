@@ -1,0 +1,174 @@
+p{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+body{
+	margin: 0;
+	padding: 0;
+	padding-top: 20px;
+}
+#header {
+	padding-bottom: 30px;
+}
+.container {
+	width: 750px;
+	margin: 0 auto;
+}
+.logo {
+	padding-bottom: 0px;
+}
+ul {
+    list-style: none;
+    padding: 10px;
+}
+#header .container .nav  li{
+	float: right;
+    padding-left: 9px;
+    display: block;
+   
+}
+
+
+#header .nav ul li a {
+	text-decoration: none;
+	    color: #000;
+    font-size: 18px;
+    line-height: 28px;
+   
+    padding: 0 10px;
+}
+#header .nav ul li a:hover,
+#header .nav ul li a:focus,
+#header .nav ul li a:active {
+	color: #07bee6;
+	outline: none;
+}
+#hero {
+	height: 750px;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 30px;
+}
+#about {
+	height: 500px;
+	margin-bottom: 20px;
+}
+
+#about #about_img {
+	float: left;
+
+}
+#about #about_text {
+	float: right;
+	width: 55%;
+	text-align: left;
+}
+
+#about #about_text p{
+		font-size: 18px;
+	line-height: 24px;
+	color: #60605e;
+}
+#philo {
+	height: 850px;
+	padding-top: 30px;
+	margin-bottom: 40px;
+}
+
+#philo #philo_text{
+	float: left;
+	width: 55%;
+
+}
+#philo #philo_img {
+	float: right;
+	padding-top: 250px;
+
+	
+	
+}
+
+#philo #philo_text p{
+		font-size: 18px;
+	line-height: 24px;
+	color: #60605e;
+}
+#philo #philo_text span {
+	color: green;
+	text-decoration: bold;
+}
+
+#team {
+	height: 1600px;
+}
+#team .heading {
+	padding-top: 30px;
+}
+
+#team #team_img {
+	float: left;
+
+}
+#team #team_text {
+	float: right;
+	width: 55%;
+	text-align: left;
+}
+
+#team #team_text p{
+	font-size: 18px;
+	line-height: 24px;
+	color: #60605e;
+}
+#clients {
+	margin-bottom: 130px;
+}
+#clients a {
+	color: green;
+}
+#clients a:hover {
+	color: #07bee6;
+}
+#contact {
+	padding-bottom: 40px;
+}
+#contact .contact_column {
+	float: left;
+	width: 40%;
+	padding-left: 130px;
+}
+#contact .contact_column h4 {
+	padding-bottom: 10px;
+	border-bottom: 2px solid #000;
+}
+#contact .contact_column .address {
+	padding-top: 20px; 
+	margin-bottom: 60px;
+}
+#contact .contact_column .address h5,p {
+	line-height: 24px;
+	padding: 5px 0px;
+}
+#contact .contact_column .number  a {
+	color: green;
+}
+#contact .contact_column input{
+	width: 300px;
+}
+#contact .contact_column input,textarea ,button{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	padding-right: 50px;
+}
+#contact .contact_column button {
+    background-color: green; /* Green */
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
