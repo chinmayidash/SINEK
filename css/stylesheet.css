@@ -172,3 +172,24 @@ ul {
     display: inline-block;
     font-size: 16px;
 }
+#services {
+	background-color: #ececec;
+	padding-bottom: 20px;
+}
+#services .heading {
+	padding-top: 20px;
+
+}
+#services h4 {
+	text-indent: bold;
+}
+#services .service_column1 {
+	width: 40%;
+	padding-left: 0%;
+	padding-right: 100%;
+}
+#services .service_column2 {
+	width: 40%;
+	padding-left: 60%;
+	padding-right: 40%;
+}
