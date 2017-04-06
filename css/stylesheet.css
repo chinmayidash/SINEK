@@ -26,6 +26,9 @@ body{
 	padding: 0;
 	font: 13px/24px 'Trebuchet MS', sans-serif;
 }
+h3,h4,h5 {
+	font-style: 'Trebuchet MS', sans-serif;
+}
 h3 {
 	font-size: 18px;
 	line-height: 20px;
@@ -93,9 +96,11 @@ ul {
 }*/
 #about {
 	margin-bottom: 20px;
+	padding-top: 68px;
 }
 #about #about_img {
 	float: left;
+	padding-top: 10px;
 
 }
 #about #about_text {
@@ -115,7 +120,6 @@ ul {
 #philo #philo_text{
 	float: left;
 	width: 55%;
-
 }
 #philo #philo_img {
 	float: right;
@@ -126,13 +130,31 @@ ul {
 }
 
 #philo #philo_text p{
-		font-size: 18px;
-	line-height: 24px;
+	font: 13px/24px 'Trebuchet MS', sans-serif;
 	color: #60605e;
 }
 #philo #philo_text span {
 	color: green;
 	text-decoration: bold;
+}
+#services {
+	background-color: #ececec;
+	padding-bottom: 20px;
+}
+#services .heading {
+	padding-top: 20px;
+
+}
+#services h4 {
+	text-indent: bold;
+}
+#services .service_column1 {
+	width: 55%;
+	margin-right: 45%;
+}
+#services .service_column2 {
+	width: 55%;
+	margin-left: 45%;
 }
 
 #team {
@@ -156,6 +178,7 @@ ul {
 	font-size: 18px;
 	line-height: 24px;
 	color: #60605e;
+	font: 13px/24px 'Trebuchet MS', sans-serif;
 }
 #clients {
 	margin-bottom: 130px;
@@ -218,23 +241,4 @@ border-bottom: 2px solid #000;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-}
-#services {
-	background-color: #ececec;
-	padding-bottom: 20px;
-}
-#services .heading {
-	padding-top: 20px;
-
-}
-#services h4 {
-	text-indent: bold;
-}
-#services .service_column1 {
-	width: 55%;
-	margin-right: 45%;
-}
-#services .service_column2 {
-	width: 55%;
-	margin-left: 45%;
 }
